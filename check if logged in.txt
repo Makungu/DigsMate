@@ -1,0 +1,77 @@
+<div id = "tenantDiv" style = "display: none;">
+	<script type="text/javascript" src="https://c1aci260.caspio.com/dp/4f7b7000f39322c31f06433da2f9/emb"></script>
+	<div class="cxkg"><a href="https://c1aci260.caspio.com/dp/4f7b7000f39322c31f06433da2f9">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+	<div id="cb4f7b7000f39322c31f06433da2f9"><a href="https://www.caspio.com" target="_blank">Cloud Database</a> by Caspio</div>
+</div>
+
+<div id = "agentDiv" style = "display: none;">
+	<script type="text/javascript" src="https://c1aci260.caspio.com/dp/4f7b70004c452dda16ac41e4b849/emb"></script>
+	<div class="cxkg"><a href="https://c1aci260.caspio.com/dp/4f7b70004c452dda16ac41e4b849">Click here</a> to load this Caspio <a href="http://www.caspio.com" target="_blank" title="Cloud Database">Cloud Database</a></div>
+	<div id="cb4f7b70004c452dda16ac41e4b849"><a href="https://www.caspio.com" target="_blank">Cloud Database</a> by Caspio</div>
+</div>
+
+<style>
+	#comp-jzih67as9 {
+		display: none;
+	}
+	
+	#comp-jzih67as10 {
+		display: none;
+	}
+	
+	#comp-jwkfj64hlogin {
+		display: none;
+	}
+</style>
+
+<script>
+//Make this an external script at some point.
+	window.onload = function() {
+		var logInBtn = document.getElementById("comp-jzih67as9");	//log in  (show when logged out)
+		var logOutBtn = document.getElementById("comp-jzih67as10"); //log out (show when logged in)
+		var accountBtn = document.getElementById("comp-jwkfj64hlogin"); //account button (show when logged in)
+		var tenantLoggedIn = document.getElementById("tenantLoggedIn"); //tenant logged in?
+		var agentLoggedIn = document.getElementById("agentLoggedIn");   //agent logged in?
+		if (tenantLoggedIn != null) { //tenant logged in
+			//hides log in button and shows log out button.
+			logInBtn.style.display = 'none';
+			logOutBtn.style.display = 'inline-block';
+			accountBtn.style.display = 'inline-block';
+			//show tenant-only features and hide agent-only features
+		} else if (agentLoggedIn != null){ //agent logged in
+			logInBtn.stlye.display = 'none';
+			logOutBtn.stlye.display = 'inline-block';
+			accountBtn.style.display = 'inline-block';
+			//show agent-only features and hide tenant-only features
+		} else { //nobody be logged in
+			logInBtn.style.display = 'inline-block';
+			logOutBtn.style.display = 'none';
+			accountBtn.style.display = 'none';
+		}
+	}
+</script>
+
+
+
+
+
+							<li data-direction="ltr" data-listposition="right" data-data-id="dataItem-jdfsdfasdg23"
+                            class="style-jzij0u3wrepeaterButton" data-state="menu  idle link notMobile"
+                            id="comp-jzih67as10" data-original-gap-between-text-and-btn="11"
+                            style="width: 89px; height: 73px; position: relative; box-sizing: border-box; overflow: visible;"
+                            aria-hidden="false"><a role="button" tabindex="0" aria-haspopup="true"
+                              data-listposition="right" href="https://c1aci260.caspio.com/folderlogout"
+                              target="_self" id="comp-jzih67as10linkElement"
+                              class="style-jzij0u3wrepeaterButtonlinkElement">
+                              <div class="style-jzij0u3wrepeaterButton_gapper">
+                                <div class="style-jzij0u3wrepeaterButton_wrapper">
+                                  <div style="text-align:center" id="comp-jzih67as10bg"
+                                    class="style-jzij0u3wrepeaterButtonbg">
+                                    <p style="text-align: center; line-height: 73px;" id="comp-jzih67as10label"
+                                      class="style-jzij0u3wrepeaterButtonlabel">Log Out</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </a></li>
+
+
